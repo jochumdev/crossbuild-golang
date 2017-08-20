@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         git \      
 	build-essential \
 	mingw-w64 \
-	nsis
+	nsis \
 	&& rm -rf /var/lib/apt/lists/*
 
 ENV GOLANG_VERSION 1.8.3
