@@ -10,6 +10,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         ca-certificates \
         wget \  
         git \      
+	build-essential \
+	mingw-w64 \
+	nsis
 	&& rm -rf /var/lib/apt/lists/*
 
 ENV GOLANG_VERSION 1.8.3
